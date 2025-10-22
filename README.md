@@ -18,3 +18,7 @@ Les fonctions doivent (quand c'est possible) se prefixer par une action.
 Exemples :
 	- Une fonction qui va chercher une donnée peut se prefixer par get_. (get_name())
 	- Une fonction qui retourne un booléen peut se prefixer par is_. (is_odd())
+
+*Fonctionnement*
+```bash
+./webserv server_config_file/default.conf
