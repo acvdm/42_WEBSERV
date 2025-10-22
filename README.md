@@ -2,5 +2,5 @@ Webserv est un projet de l'école 42. Le but est d'implémenter un serveur web H
 
 *Fonctionnement*
 ```bash
-make
-./webserv server_config_file/default.conf
+$ make
+$ ./webserv server_config_file/default.conf
