@@ -4,3 +4,6 @@ Webserv est un projet de l'école 42. Le but est d'implémenter un serveur web H
 ```bash
 $ make
 $ ./webserv server_config_file/default.conf
+```
+
+Une interface front est disponible à cette adresse: http://localhost:8080/
