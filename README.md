@@ -1,9 +1,15 @@
 Webserv est un projet de l'école 42. Le but est d'implémenter un serveur web HTTP/1.1, en C++ capable de gérer des requêtes et réponses web, à la manière d’un mini-Nginx.
 
-*Fonctionnement*
-```bash
-$ make
-$ ./webserv server_config_file/default.conf
+*Cloner le repository github*
+```
+git clone https://github.com/acvdm/42_WEBSERV.git webserv
+cd webserv
 ```
 
-Une interface front est disponible à cette adresse: http://localhost:8080/
+*Lancement du serveur*
+```bash
+make
+./webserv server_config_file/default.conf
+```
+
+Une interface front est disponible à cette adresse après lancement du serveur: http://localhost:8080/
